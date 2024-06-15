@@ -28,6 +28,8 @@ This setup not only optimizes server performance but also provides a flexible ar
 
 ##
 
+#SETUP PROCEDURE
+
 Step1: Installing apache2  
 ![image](https://github.com/kunal0x00/Nginx-as-reverse-proxy-for-apache-server/assets/117434806/ec50aec9-b0c7-4e34-aec5-cb1e5fc88299)
 
