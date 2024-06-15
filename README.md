@@ -26,7 +26,7 @@ By inspecting HTTP headers or using tools like `curl` and web browsers, administ
 
 This setup not only optimizes server performance but also provides a flexible architecture that can scale with the demands of modern web applications. By combining the strengths of Nginx and Apache, organizations can achieve a robust and efficient web server infrastructure.
 
-##
+
 
 # SETUP PROCEDURE
 
