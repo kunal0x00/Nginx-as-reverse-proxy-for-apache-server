@@ -1,24 +1,26 @@
-**Introduction to Using Nginx as a Reverse Proxy for Apache**
+# Introduction to Using Nginx as a Reverse Proxy for Apache
 
 In modern web architectures, the use of reverse proxies plays a crucial role in enhancing performance, security, and flexibility of web servers. One common setup involves using Nginx as a reverse proxy in front of Apache HTTP Server. This configuration leverages Nginx's efficient handling of concurrent connections and static content delivery, while Apache continues to process dynamic content and applications.
 
-How It Works:
+## How It Works:
 
-Reverse Proxy Concept: A reverse proxy sits between clients and backend servers, intercepting requests and forwarding them to the appropriate server. It abstracts the backend servers, allowing for load balancing, SSL termination, caching, and more.
+- **Reverse Proxy Concept**: A reverse proxy sits between clients and backend servers, intercepting requests and forwarding them to the appropriate server. It abstracts the backend servers, allowing for load balancing, SSL termination, caching, and more.
 
-Benefits of Nginx: Nginx is known for its high performance and scalability, especially in handling large numbers of concurrent connections. It excels at serving static content efficiently and can offload some tasks from Apache, reducing its workload.
+- **Benefits of Nginx**: Nginx is known for its high performance and scalability, especially in handling large numbers of concurrent connections. It excels at serving static content efficiently and can offload some tasks from Apache, reducing its workload.
 
-Apache's Strengths: Apache, on the other hand, is highly configurable and versatile, particularly for dynamic content generation, PHP applications, and complex configurations using .htaccess files.
+- **Apache's Strengths**: Apache, on the other hand, is highly configurable and versatile, particularly for dynamic content generation, PHP applications, and complex configurations using `.htaccess` files.
 
-Setting Up Nginx as a Reverse Proxy for Apache:
+## Setting Up Nginx as a Reverse Proxy for Apache:
 
-Configuration: Nginx is configured to listen for incoming requests on port 80 (HTTP) or 443 (HTTPS). It then proxies requests to Apache, typically running on a different port like 8080.
+- **Configuration**: Nginx is configured to listen for incoming requests on port 80 (HTTP) or 443 (HTTPS). It then proxies requests to Apache, typically running on a different port like 8080.
 
-Traffic Handling: Nginx handles incoming requests, performs tasks like SSL termination, and forwards requests to Apache based on predefined rules (e.g., URL paths, headers).
+- **Traffic Handling**: Nginx handles incoming requests, performs tasks like SSL termination, and forwards requests to Apache based on predefined rules (e.g., URL paths, headers).
 
-Benefits: This setup optimizes resource usage, improves response times, and enhances security by shielding Apache from direct exposure to the internet.
+- **Benefits**: This setup optimizes resource usage, improves response times, and enhances security by shielding Apache from direct exposure to the internet.
 
-Verification: By inspecting HTTP headers or using tools like curl and web browsers, administrators can confirm that requests are properly routed through Nginx to Apache. This validation ensures the proxy setup is functioning as intended, delivering efficient and secure web services to end users.
+## Verification:
+
+By inspecting HTTP headers or using tools like `curl` and web browsers, administrators can confirm that requests are properly routed through Nginx to Apache. This validation ensures the proxy setup is functioning as intended, delivering efficient and secure web services to end users.
 
 
 Step1: Installing apache2  
