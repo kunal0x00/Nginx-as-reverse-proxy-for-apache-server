@@ -22,6 +22,9 @@ In modern web architectures, the use of reverse proxies plays a crucial role in 
 
 By inspecting HTTP headers or using tools like `curl` and web browsers, administrators can confirm that requests are properly routed through Nginx to Apache. This validation ensures the proxy setup is functioning as intended, delivering efficient and secure web services to end users.
 
+##
+
+This setup not only optimizes server performance but also provides a flexible architecture that can scale with the demands of modern web applications. By combining the strengths of Nginx and Apache, organizations can achieve a robust and efficient web server infrastructure.
 
 Step1: Installing apache2  
 ![image](https://github.com/kunal0x00/Nginx-as-reverse-proxy-for-apache-server/assets/117434806/ec50aec9-b0c7-4e34-aec5-cb1e5fc88299)
